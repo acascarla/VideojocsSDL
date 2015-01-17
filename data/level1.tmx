@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="32" tileheight="32" backgroundcolor="#3ab0c7">
+ <tileset firstgid="1" name="blocks1" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="../assets/tilesets/blocks1.png" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="199" name="blocks2" tilewidth="32" tileheight="32" spacing="2" margin="2">
+  <image source="../assets/tilesets/blocks2.png" trans="ffffff" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="397" name="felippuig" tilewidth="60" tileheight="60">
+  <image source="../assets/felippuig.png" width="480" height="180"/>
+ </tileset>
+ <tileset firstgid="421" name="cargol" tilewidth="35" tileheight="35">
+  <image source="../assets/cargol.png" width="140" height="35"/>
+ </tileset>
+ <tileset firstgid="425" name="cranc" tilewidth="58" tileheight="26">
+  <image source="../assets/cranc.png" width="174" height="26"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="40" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztkUsKwkAQREcQcwPBy8VEzVESvaWf6AH84jIv2xiQbgcCph681VBVDRPC/7HGDRYD7ee4Gmi7yx4PeMQUl5j92Bmrp+WKN7xH6Oojxl9MJ/bMlszOkDthjWf7VJg77ivJVIbcA5/4sk+57vOQOHYu4fO+mbPnW27B+9teLYQQQgghRkQDnD8VRQ==
+  </data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1">
+  <object name="FelipPuig" gid="397" x="111" y="223">
+   <properties>
+    <property name="animSpeed" value="6"/>
+    <property name="callbackID" value="0"/>
+    <property name="height" value="60"/>
+    <property name="isPlayer" value="1"/>
+    <property name="numFrames" value="8"/>
+    <property name="textureID" value="felippuig"/>
+    <property name="width" value="60"/>
+   </properties>
+  </object>
+  <object name="Cargol" gid="421" x="511" y="188">
+   <properties>
+    <property name="animSpeed" value="1"/>
+    <property name="callbackID" value="0"/>
+    <property name="height" value="35"/>
+    <property name="isPlayer" value="0"/>
+    <property name="numFrames" value="4"/>
+    <property name="textureID" value="cargol"/>
+    <property name="width" value="35"/>
+   </properties>
+  </object>
+  <object name="Cranc" gid="425" x="579" y="263">
+   <properties>
+    <property name="animSpeed" value="2"/>
+    <property name="callbackID" value="0"/>
+    <property name="height" value="26"/>
+    <property name="isPlayer" value="0"/>
+    <property name="numFrames" value="3"/>
+    <property name="textureID" value="cranc"/>
+    <property name="width" value="58"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="Capa de colisiones" width="40" height="25">
+  <properties>
+   <property name="collision" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztkLsKgDAQBK9TsDCF+Ij6/5/nL7iNhYsJQZAcuAvT5cgwZpqmaT42gwVEsIIN7FWN7gtgABMYQQP6D//jFp09N7m68Xsmdcc3pc3bBNwkZN6+uSttLr96fodzP+/95Cc/+clPfv/1OwHM1BJi
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited by XMLSpy -->
+<STATES>
+	<MENU>
+		<TEXTURES>
+			<texture filename="bt_menu_play.png" ID="bt_menu_play" />
+			<texture filename="bt_menu_exit.png" ID="bt_menu_exit" />
+		</TEXTURES>
+		<GAMEOBJECTS>
+			<gameobject type="MenuButton" x="200" y="125" width="400" height="100" numFrames="0" textureID="bt_menu_play" callbackID="1" />		
+			<gameobject type="MenuButton" x="200" y="325" width="400" height="100" numFrames="0" textureID="bt_menu_exit" callbackID="2" />
+		</GAMEOBJECTS>
+	</MENU>
+	<PLAY>
+		<TEXTURES>
+		</TEXTURES>
+		<GAMEOBJECTS>
+		</GAMEOBJECTS>
+	</PLAY>
+	<PAUSE>
+	<TEXTURES>
+		<texture filename="bt_pause_resume.png" ID="bt_pause_resume" />
+		<texture filename="bt_pause_mainmenu.png" ID="bt_pause_mainmenu" />
+	</TEXTURES>
+	<GAMEOBJECTS>
+		<gameobject type="MenuButton" x="325" y="125" width="200" height="80" numFrames="0" textureID="bt_pause_resume" callbackID="1" />
+		<gameobject type="MenuButton" x="325" y="325" width="200" height="80" numFrames="0" textureID="bt_pause_mainmenu" callbackID="2" />
+	</GAMEOBJECTS>
+</PAUSE>
+</STATES>

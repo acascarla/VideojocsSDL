@@ -1,0 +1,41 @@
+﻿Build started 17/01/2015 20:41:30.
+     1>Project "D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\GameObjects\GameObjects.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files\VC\bin\CL.exe /c /I../lib/headers/ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cranc.cpp
+         Cranc.cpp
+     1>d:\dropbox\uni\videojocs1\practica5\gameobjects\gameobjects\cranc.cpp(28): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\dropbox\uni\videojocs1\practica5\gameobjects\gameobjects\cranc.cpp(29): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         D:\Program Files\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\Debug\GameObjects.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib/libs/ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2.lib SDL2main.lib SDL2_image.lib zdll.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\Debug\GameObjects.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\Debug\GameObjects.lib" /MACHINE:X86 Debug\base64.obj
+         Debug\Cargol.obj
+         Debug\CollisionManager.obj
+         Debug\Cranc.obj
+         Debug\FelipPuig.obj
+         Debug\Game.obj
+         Debug\GameObject.obj
+         Debug\GameObjectFactory.obj
+         Debug\GameStateMachine.obj
+         Debug\InputHandler.obj
+         Debug\Level.obj
+         Debug\LevelParser.obj
+         Debug\main.obj
+         Debug\MenuButton.obj
+         Debug\ObjectLayer.obj
+         Debug\PauseState.obj
+         Debug\PlataformerObject.obj
+         Debug\PlayState.obj
+         Debug\MenuState.obj
+         Debug\StateParser.obj
+         Debug\TextureManager.obj
+         Debug\TileLayer.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         Debug\Vector2D.obj
+         GameObjects.vcxproj -> D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\Debug\GameObjects.exe
+     1>Done Building Project "D:\Dropbox\Uni\Videojocs1\Practica5\GameObjects\GameObjects\GameObjects.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{c438df0f-cdb8-4adc-b070-f255fd8d8cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{f7c9431e-7942-473e-b268-814449b867c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStateMachine">
+      <UniqueIdentifier>{2beaff13-940b-4e24-b393-014eba4686c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateMachine">
+      <UniqueIdentifier>{90ae1e5a-53e8-49f4-a82f-5c4e0f809b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Buttons">
+      <UniqueIdentifier>{d6b75704-6119-4e4a-9571-2c461c511666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Buttons">
+      <UniqueIdentifier>{f5e80416-5f4f-42f2-ac7c-c7daebb5ecf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\TinyXML">
+      <UniqueIdentifier>{32a79bb6-a624-4027-8513-01a84cc5a6f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Base64">
+      <UniqueIdentifier>{e218e472-f944-40ce-aacc-5b9819fec1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\zlib">
+      <UniqueIdentifier>{47b38756-7ebd-4d8a-8079-21581bc31e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tilesets">
+      <UniqueIdentifier>{aa6a7106-ac10-4174-921f-fdd8350856fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tilesets">
+      <UniqueIdentifier>{bddab6c8-fff7-4e3e-ade6-f85b43a9f13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CollisionManager">
+      <UniqueIdentifier>{11c2db5a-1e7b-4f35-a65d-5088a02dd1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionManager">
+      <UniqueIdentifier>{c099a0a8-b549-4cd4-a7aa-e69c6dbfcfb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargol.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cranc.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="FelipPuig.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateMachine.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\GameStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Source Files\GameObjects\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="StateParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>Resource Files\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="TileLayer.cpp">
+      <Filter>Source Files\Tilesets</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelParser.cpp">
+      <Filter>Source Files\Tilesets</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Tilesets</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLayer.cpp">
+      <Filter>Source Files\Tilesets</Filter>
+    </ClCompile>
+    <ClCompile Include="PlataformerObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\CollisionManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargol.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cranc.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FelipPuig.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateMachine.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\GameStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Header Files\GameObjects\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderParams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>Resource Files\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="StateParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Resource Files\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>Resource Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>Resource Files\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayer.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelParser.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLayer.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="PlataformerObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="tileset.h">
+      <Filter>Header Files\Tilesets</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\CollisionManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
